@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://schweiz-noten.notenrechneronline.deno.net/sitemap.xml
