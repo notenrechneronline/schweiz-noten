@@ -114,3 +114,13 @@ footer.site{
   article.card{padding:1.2rem 1rem}
   h1{font-size:1.4rem}
 }
+
+/* Ressourcen / Downloads */
+.ressourcen{margin:2.5rem 0;padding:1.5rem;background:var(--card,#ffffff);border:1px solid var(--line,#e8eaee);border-radius:12px}
+.ressourcen h2{margin-top:0}
+.resource-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin-top:1rem}
+.resource{border:1px solid var(--line,#e8eaee);border-radius:10px;overflow:hidden;background:#fff;display:flex;flex-direction:column;margin:0}
+.resource img{width:100%;height:auto;display:block}
+.resource figcaption{padding:.75rem 1rem;font-size:.95rem;color:var(--ink,#23272f);flex:1}
+.download-btn{display:inline-block;margin:.5rem 1rem 1rem;padding:.65rem 1.1rem;background:var(--red,#d2261e);color:#fff!important;border-radius:8px;text-decoration:none;font-weight:700;text-align:center}
+.download-btn:hover{background:var(--red-dark,#a51c15);color:#fff}
